@@ -1,0 +1,8 @@
+<template>
+    <lightning-card title="Search CEP">
+        <lightning-button label="Search" slot="footer" onclick={handlerBuscarCep}></lightning-button>
+        <div class="slds-p-around_medium lgc-bg">
+            <lightning-input type="text" label="Type Your CEP" onchange={handleCepChange}></lightning-input>
+        </div>
+    </lightning-card>
+</template>
